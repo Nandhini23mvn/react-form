@@ -122,7 +122,7 @@ console.log(result);
             <tbody>
               {submittedData.map((data, index) => (
                 <tr key={index}>
-                  <td>{index+1}</td>  
+                  <td>{submittedData.length-index}</td>  
                   <td>{data.name}</td>
                   <td>{data.email}</td>
                   <td>{data.place}</td>
